@@ -13,4 +13,14 @@ document.addEventListener('DOMContentLoaded', function() {
             card.style.transform = 'translateY(0)';
         }, 100);
     });
+
+    // Обработка формы контактов
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Спасибо! Ваше сообщение успешно отправлено.');
+            contactForm.reset();
+        });
+    }
 });

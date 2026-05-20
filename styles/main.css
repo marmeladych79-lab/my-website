@@ -6,17 +6,20 @@ body {
     padding: 0;
     color: #333;
 }
+
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .features {
     display: flex;
     justify-content: space-between;
     margin: 2rem 0;
 }
+
 .feature-card {
     flex: 1;
     padding: 1rem;
@@ -25,7 +28,51 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
 .hero {
     padding: 2rem 0;
     text-align: center;
+}
+
+/* Стили для формы обратной связи */
+.contact-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #f4f4f4;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #e8491d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background: #35424a;
 }
