@@ -24,19 +24,18 @@
     </header>
     <main class="container">
         <section class="hero">
-            <h2>Галерея проекта</h2>
-            <p>Здесь будут отображаться скриншоты нашей работы с Git и GitHub.</p>
+            <h2>Интерактивная галерея</h2>
+            <p>Нажимайте на миниатюры ниже, чтобы переключить главное изображение.</p>
         </section>
-        <section class="features">
-            <div class="feature-card" style="text-align: center;">
-                <div style="background: #ddd; height: 150px; border-radius: 4px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: #666;">[ Скриншот терминала ]</div>
-                <h3>Локальный репозиторий</h3>
-                <p>Создание структуры папок и первый коммит.</p>
+        
+        <section class="gallery-section">
+            <div class="main-image-container">
+                <img id="mainImage" src="https://picsum.photos/id/10/600/400" alt="Главное фото">
             </div>
-            <div class="feature-card" style="text-align: center;">
-                <div style="background: #ddd; height: 150px; border-radius: 4px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: #666;">[ Скриншот GitHub ]</div>
-                <h3>Удаленный репозиторий</h3>
-                <p>Успешная отправка веток на сервер.</p>
+            <div class="thumbnails">
+                <img class="thumb active" src="https://picsum.photos/id/10/150/100" data-full="https://picsum.photos/id/10/600/400" alt="Фото 1">
+                <img class="thumb" src="https://picsum.photos/id/15/150/100" data-full="https://picsum.photos/id/15/600/400" alt="Фото 2">
+                <img class="thumb" src="https://picsum.photos/id/28/150/100" data-full="https://picsum.photos/id/28/600/400" alt="Фото 3">
             </div>
         </section>
     </main>
